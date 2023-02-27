@@ -91,8 +91,8 @@ namespace Turing {
             for (; i < this->_input_alphabet.size(); ++i) { // default alphabet
                 mp.insert(std::make_pair(this->_input_alphabet[i], this->parse_action(row[i])));
             }
-            mp.insert(std::make_pair(this->_empty, this->parse_action(row[i]))); // empty simbol
-            for (i = 0; i < this->_additional_alphabet.size(); ++i) { // additional alphabet
+            mp.insert(std::make_pair(this->_empty, this->parse_action(row[i]))); // símbolo vacío
+            for (i = 0; i < this->_additional_alphabet.size(); ++i) { // adicional alphabet
                 mp.insert(std::make_pair(this->_additional_alphabet[i], this->parse_action(row[this->_input_alphabet.size() + i + 1])));
             }
             this->_actions[index] = mp;

@@ -371,7 +371,7 @@ public:
         menu->setTitle(QCoreApplication::translate("MainWindow", "Cinta", nullptr));
         menu_2->setTitle(QCoreApplication::translate("MainWindow", "Actuacion", nullptr));
         menu_3->setTitle(QCoreApplication::translate("MainWindow", "Velocidad", nullptr));
-        menu_4->setTitle(QCoreApplication::translate("MainWindow", "Sobre el programa", nullptr));
+        //menu_4->setTitle(QCoreApplication::translate("MainWindow", "Sobre el programa", nullptr));
     } // retranslateUi
 
 };

@@ -12,7 +12,7 @@ namespace Turing {
         // Constructor from base class
         Alphabet(QString s) : QString(s) {};
 
-        // Auxiliary alphabet methods
+        // auxiliar alphabet methods
         bool contains(QChar);
         bool validate();
     };
